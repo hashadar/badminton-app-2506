@@ -8,11 +8,7 @@ const config = {
         adapter: adapter({
             // Fallback for SPA routing
             fallback: 'index.html'
-        }),
-        // Prerender all pages by default
-        prerender: {
-            default: true
-        }
+        })
     }
 };
 
